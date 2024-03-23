@@ -1,0 +1,11 @@
+POST http://localhost:3333/uploads
+Content-Type: application/json
+
+{
+    "name": "teste.jpeg",
+    "contentType": "image/jpeg"
+}
+
+###
+
+GET http://localhost:3333/uploads/clu4gvzx80001lhqvf7u4j15w
